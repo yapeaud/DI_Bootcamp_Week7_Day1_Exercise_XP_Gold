@@ -10,7 +10,7 @@
     <h1>Exercise 1</h1>
     <?php
         class MyCalculator {
-        private $_fval, $_sval;
+        public $_fval, $_sval;
         public function  __construct( $fval, $sval ) {
         $this->_fval = $fval;
         $this->_sval = $sval;
